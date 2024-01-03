@@ -1,0 +1,527 @@
+
+@media all and (max-width: 1199px){
+	.header-nav nav .menu{
+		gap: 0px 20px;
+	}
+}
+
+@media all and (max-width: 1024px){
+	.home_banner_content {
+		padding-top: 150px;
+	}
+	.home_banner_right {
+		padding-left: 60px;
+	}
+}
+
+@media all and (min-width: 992px){
+	.header-menu{
+		display: -webkit-box !important;
+		display: -ms-flexbox !important;
+		display: flex !important;
+	}
+	.header-nav nav{
+		display: block !important;
+	}
+}
+@media all and (max-width: 991px){
+	/* Mobile menu ----------------------------*/
+	.header-button {
+		display: none;
+	}
+	.mobile-headerbtn{
+		display: block;
+	}
+	.mobile-menu {
+		display: block;
+	}
+	.header-nav nav{
+		position: absolute;
+		width: calc(100% + 40px);
+		height: 100vh;
+		top: 100%;
+		left: -20px;
+		background: #fff;
+		z-index: 1;
+		-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+		        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+		padding:40px 0;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		text-align: center;
+		display: none;
+	}
+	.menu.home_menu li button {
+		color: #000;
+	}
+	.header-nav nav .menu{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;	
+	}
+	.header-nav nav ul li{
+		margin-bottom: 30px;
+	}
+	.dropdown-menu li{
+		margin-bottom: 0px !important;
+	}
+	.menu.home_menu li a{
+		color: #000;
+	}
+	.header-menu{
+		-webkit-box-pack: start;
+		    -ms-flex-pack: start;
+		        justify-content: flex-start;
+	}
+	.mobile_logo{
+		display: block;
+	}
+	.desk_logo{
+		display: none;
+	}
+	.home_banner_content {
+		-ms-grid-columns: (1fr)[1];
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.home_banner_right {
+		padding-left: 0px;
+		-ms-grid-columns: (1fr)[5];
+		grid-template-columns: repeat(5, 1fr);
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+	}
+	.apie_content {
+		-ms-grid-columns: (1fr)[1];
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.over_heading1 {
+		font-size: 200px;
+	}
+	.over_heading2 {
+		font-size: 60px;
+	}
+	.single_komanda {
+		-ms-grid-column-span: 4;
+		grid-column: span 4;
+	}
+	.single_komnda_first{
+		-ms-grid-column-span: 8;
+		grid-column: span 8;
+	}
+	.codel_content {
+		-ms-grid-columns: (1fr)[2];
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.contact_yellow {
+		padding: 45px 40px 40px 40px;
+	}
+	.contact_danger {
+		padding: 45px 40px 40px 40px;
+	}
+	.car_area {
+		padding: 150px 0px;
+	}
+	.text_16 {
+		line-height: 25px;
+	}
+	.apie_area {
+		padding-top: 80px;
+		padding-bottom: 90px;
+	}
+	.Komanda_area {
+		padding-bottom: 90px;
+	}
+	.Codel_area {
+		padding-bottom: 100px;
+	}
+	.single_codel .heading4 {
+		padding-top: 20px;
+		padding-bottom: 13px;
+	}
+
+	.banner_btn a {
+		padding: 15px 65px;
+		font-size: 18px;
+	}
+	.banner_all_con {
+		gap: 30px;
+		padding-bottom: 60px;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.left_cont_top {
+		padding-bottom: 50px;
+	}
+	.regis_bottom {
+		gap: 30px;
+	}
+	.footer_con,
+	.f_all_cont {
+		gap: 30px 30px;
+	}
+	.registration_area {
+		padding-bottom: 80px;
+	}
+  /* apie mus pages responsive start */
+  	.mokykla_content_area {
+		gap: 22px;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.mokykla_main_area {
+		padding-top: 75px;
+		padding-bottom: 100px;
+	}
+	.vehicle_content_area {
+		gap: 50px;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+}
+
+@media all and (max-width:767px){
+	.heading1 {
+		font-size: 35px;
+	}
+	.heading2{
+		font-size: 30px;
+	}
+	.heading3{
+		font-size: 25px;
+	}
+	.heading4{
+		font-size: 20px;
+	}
+	.text_16{
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.desk_komanda{
+		display: none;
+	}
+	.mobile_komanda_main{
+		display: block;
+	}
+	.mobile_komanda{
+		padding-top: 40px;
+	}
+	.mobile_none{
+		display: none;
+	}
+	.home_banner_right {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+	}
+	.Pagerinkite_content {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.Pagerinkite_right_content {
+		text-align: right;
+		width: 100%;
+		margin-top: -30px;
+	}
+	.over_heading1 {
+		font-size: 144px;
+		line-height: 115px;
+	}
+	.over_heading2 {
+		font-size: 50px;
+	}
+	.codel_content {
+		-ms-grid-columns: (1fr)[1];
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.contact_map iframe {
+		height: 200px;
+	}
+	.contact_map_ifrem iframe {
+		height: 200px;
+	}
+	.contact_top_content {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		gap: 30px;
+	}
+	 /* Dipu */
+	 .left_cont_mid,
+	 .left_cont_top {
+	   padding-bottom: 40px;
+	 }
+	 .left_cont_bottom .b_text,
+	 .left_cont_mid .b_text {
+	   padding-bottom: 10px;
+	 }
+	 .right_cont_mid,
+	 .right_cont_top {
+	   padding: 20px 30px;
+	 }
+	 .regis_bottom {
+	   -webkit-box-orient: vertical;
+	   -webkit-box-direction: normal;
+	       -ms-flex-direction: column;
+	           flex-direction: column;
+	 }
+	 .footer_con {
+	   -webkit-box-orient: vertical;
+	   -webkit-box-direction: normal;
+	       -ms-flex-direction: column;
+	           flex-direction: column;
+	 }
+}
+@media all and (max-width:575px){
+	.header-logo a img {
+		max-width: 150px;
+		height: 40px;
+	}
+	.single_button_item {
+		width: 165px;
+		height: 41px;
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 0 calc(100% / 2 - 10px);
+		        flex: 0 0 calc(100% / 2 - 10px);
+	}
+	.single_button_item a img{
+		height: 18px;
+	}
+	.item_7 a img {
+		height: 35px;
+		width: 45px;
+		margin-right: -17px;
+	}
+	.text_10{
+		font-size: 10px !important;
+	}
+	.home_banner_right {
+		margin-top: 80px;
+	}
+	.apie_right_content iframe {
+		height: 250px;
+	}
+	.single_button_item a {
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		gap: 10px;
+	}
+	.contact_map iframe {
+		height: 144px;
+	}
+	.contact_map_ifrem iframe {
+		height: 144px;
+	}
+	.contact_map_ifrem {
+		padding-top: 20px;
+	}
+	.contact_yellow {
+		padding: 20px;
+	}
+	.contact_danger {
+		padding: 20px;
+	}
+
+	/* Dipu */
+	.left_cont_top .b_text,
+	.span_text {
+	  font-size: 18px;
+	}
+	.right_cont_mid,
+	.right_cont_top {
+	  padding: 20px;
+	}
+	.gallery_all_img {
+	  -ms-flex-wrap: wrap;
+	      flex-wrap: wrap;
+	  -webkit-box-pack: center;
+	      -ms-flex-pack: center;
+	          justify-content: center;
+	}
+	.gallery_sin_img {
+	  padding-bottom: 30px;
+	}
+	.automobile_img iframe {
+		height: 300px;
+	}
+	.name_sur {
+	  -webkit-box-orient: vertical;
+	  -webkit-box-direction: normal;
+	      -ms-flex-direction: column;
+	          flex-direction: column;
+	}
+	.main_form .name {
+	  max-width: 100%;
+	}
+	.footer_con {
+	  gap: 30px 18px;
+	  -ms-flex-wrap: wrap;
+	      flex-wrap: wrap;
+	  -webkit-column-gap: 30px;
+	     -moz-column-gap: 30px;
+	          column-gap: 30px;
+	}
+	.f_all_cont {
+	  gap: 30px 18px;
+	  -webkit-box-orient: vertical;
+	  -webkit-box-direction: normal;
+	      -ms-flex-direction: column;
+	          flex-direction: column;
+	  -webkit-column-gap: 30px;
+	     -moz-column-gap: 30px;
+	          column-gap: 30px;
+	}
+	.footer_logo {
+	  max-width: 180px;
+	}
+	.footer_copyright p {
+	  font-size: 14px;
+	}
+	.registration_area {
+	  padding-bottom: 50px;
+	}
+	.form_btn .btn {
+	  padding: 8px 20px;
+	  font-size: 16px;
+	}
+	.main_form textarea {
+	  height: 140px;
+	  margin-bottom: 20px;
+	}
+	.main_form input {
+	  height: 40px;
+	}
+	.reistration_tittle .dis,
+	.reistration_tittle .dis span {
+	  font-size: 16px;
+	  line-height: 1.5;
+	}
+	.right_cont_buttom p {
+	  font-size: 18px;
+	  line-height: 1.3;
+	  padding-top: 20px;
+	}
+	.left_cont_top .span_text,
+	.b_text {
+	  font-size: 18px;
+	}
+	.banner_btn a {
+	  padding: 10px 20px;
+	  font-size: 16px;
+	}
+	.regis_right a,
+	.regis_right p {
+	  font-size: 18px;
+	}
+	.regis_right {
+	  width: 100%;
+	}
+	/* apie mus pages css	*/
+	.apie_mus_btn {
+		font-size: 20px;
+		font-weight: 400;
+		padding: 26px 120px 26px 120px;
+	}
+	.single_vehicle_details p span {
+		display: initial;
+	}
+
+}
+
+
+@media all and (max-width:450px){
+	.container {
+		padding: 0 20px;
+	}
+	.heading1 {
+		font-size: 25px;
+	}
+	.heading2 {
+		font-size: 25px;
+	}
+	.btn2 {
+		font-size: 14px;
+	}
+	.banner_button {
+		-webkit-box-align: start;
+		    -ms-flex-align: start;
+		        align-items: flex-start;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.text_16{
+		font-size: 12px;
+	}
+	.apie_right_content iframe {
+		height: 217px;
+	}
+	.gallery_sin_img {
+		padding-bottom: 10px;
+	}
+	.automobile_img iframe {
+		height: 200px;
+	}
+	/* apie mus pages css */
+	.apie_mus_btn {
+		font-size: 16px;
+		font-weight: 400;
+		padding: 16px 50px 16px 50px;
+	}
+	.heading3 {
+		font-size: 22px;
+	}
+	.mokykla_main_area {
+		padding-top: 50px;
+		padding-bottom: 80px;
+	}
+	.text_18 {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.right_mokykla_items {
+		border: 2px solid #DC2A1B;
+		padding: 15px 15px;
+		gap: 15px;
+	}
+	.single_klases_items p span {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.klases_maps_area iframe {
+		width: 100%;
+		height: 350px;
+	}
+	.single_klases_items {
+		margin-bottom: 50px;
+	}
+	.single_vehicle_details h6 {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.vehicle_main_area {
+		padding-bottom: 60px;
+	}
+}
+
