@@ -1,24 +1,23 @@
 $(document).ready(function(){
-    // Mobile Menu Icon
-   $('#nav-icon').click(function(){
+    // Mobile Menu 
+   $('#nav-icon').on('click', function(e){
+      e.preventDefault();
       $(this).toggleClass('open');
-      $('.header-nav nav').slideToggle();
-   });
+      $('.mainMenu').slideToggle();
+  });
 
 
-   $(".gallery_all_img").magnificPopup({
-		delegate: "a",
-		type: "image",
-		tLoading: "Loading image #%curr%...",
-		mainClass: "mfp-img-mobile",
-		gallery: {
-			enabled: true,
-			navigateByImgClick: true,
-			preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
-		},
-		image: {
-			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
-		}
-	});
+//   dropdrown 
+    $('.mainMenu ul li.menu-item-has-children > a').on('hover', function(e){
+        e.preventDefault();
+        $(this).siblings('ul').slideToggle();
+    });
+    
+    $('.mainMenu ul li.menu-item-has-children > a').on('click', function(e){
+        e.preventDefault();
+        $(this).siblings('ul').slideToggle();
+    });
 
+  
+    
 });
